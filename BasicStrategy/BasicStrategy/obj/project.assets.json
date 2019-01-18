@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\bbuff_000\\source\\repos\\BasicStrategy\\BasicStrategy\\BasicStrategy.csproj",
+      "projectUniqueName": "C:\\Users\\bbuff_000\\OneDrive\\Code\\BJBasicStrategy\\BasicStrategy\\BasicStrategy\\BasicStrategy.csproj",
       "projectName": "BasicStrategy",
-      "projectPath": "c:\\users\\bbuff_000\\source\\repos\\BasicStrategy\\BasicStrategy\\BasicStrategy.csproj",
+      "projectPath": "C:\\Users\\bbuff_000\\OneDrive\\Code\\BJBasicStrategy\\BasicStrategy\\BasicStrategy\\BasicStrategy.csproj",
       "packagesPath": "C:\\Users\\bbuff_000\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\bbuff_000\\source\\repos\\BasicStrategy\\BasicStrategy\\obj\\",
+      "outputPath": "C:\\Users\\bbuff_000\\OneDrive\\Code\\BJBasicStrategy\\BasicStrategy\\BasicStrategy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -25,7 +25,20 @@ namespace BasicStrategy
             return (x.HardValue + y.HardValue);
         }
 
-        
+        public static Card updateValue(Card x)
+        {
+            
+            Card cardValue = new Card();
+            if (x.Face == "J" || x.Face == "Q" || x.Face == "K")
+            {
+                cardValue.Face = "10";
+            }
+            else
+            {
+                cardValue.Face = x.Face;
+            }
+            return cardValue;
+        }
        
 
     }

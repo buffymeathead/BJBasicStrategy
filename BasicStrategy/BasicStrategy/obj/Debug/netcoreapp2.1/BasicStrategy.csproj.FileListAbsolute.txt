@@ -9,3 +9,14 @@ c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp
 c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.AssemblyInfo.cs
 c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.dll
 c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.pdb
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.deps.json
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.runtimeconfig.json
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.runtimeconfig.dev.json
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.dll
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.pdb
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.csprojAssemblyReference.cache
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.csproj.CoreCompileInputs.cache
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.AssemblyInfoInputs.cache
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.AssemblyInfo.cs
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.dll
+C:\Users\bbuff_000\OneDrive\Code\BJBasicStrategy\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.pdb

@@ -26,43 +26,55 @@ namespace BasicStrategy
 
             if (pCard2.Face == "A")
             {
-                swapCard.Face = pCard1.Face;
-                pCard1.Face = pCard2.Face;
-                pCard2.Face = swapCard.Face;
+                swapCard = pCard1;
+                pCard1= pCard2;
+                pCard2 = swapCard;
             }
 
             // update J,Q,K to rule value 10 for matrix look up.
             Card pCard1value = new Card();
+            pCard1value = CardHand.updateValue(pCard1);
             Card pCard2value = new Card();
+            pCard2value = CardHand.updateValue(pCard2);
             Card dCard1value = new Card();
-
-            if (pCard1.Face == "J","Q","K")
-            {
-                pCard1value.Face = "10";
-            }
-
+            dCard1value = CardHand.updateValue(dCard1);
+       
 
             //Calc Hit, Stand, Double, Split based on Basic Strategy
             List<CardHand> rules1 = new Ruleset().BSMatrix1;
             List<CardHand> rules2 = new Ruleset().BSMatrix2;
 
-            var bAction = from c in rules1
-                                where c.pCard1 == pCard1.Face && c.pCard2 == pCard2.Face && c.dCard1 == dCard1.Face
-                                select c;
+            var bAction1 = from c in rules1
+                          where c.pCard1 == pCard1value.Face && c.pCard2 == pCard2value.Face && c.dCard1 == dCard1value.Face
+                          select c;
+
+            var bAction2 = from c in rules2
+                           where c.HardValueTotal == hHandValue && (c.dCard1 == dCard1value.Face || c.dCard1 == "x")
+                           select c;
 
 
             Console.WriteLine("Dealer Card: " + dCard1.Face);
             Console.Write(Environment.NewLine);
             Console.Write(Environment.NewLine);
             Console.WriteLine("Player Hand: " + pCard1.Face + "," + pCard2.Face);
-            Console.WriteLine("Soft Value: " + sHandValue);
-            Console.WriteLine("Hard Value: " + hHandValue);
+            //Console.WriteLine("Soft Value: " + sHandValue);
+            //Console.WriteLine("Hard Value: " + hHandValue);
             Console.Write(Environment.NewLine);
 
-            foreach (var action in bAction)
+            if ((pCard1value.Face == pCard2value.Face) || (pCard1value.Face == "A"))
+            {
+                foreach (var action in bAction1)
                 {
-                   Console.WriteLine(action.bestAction);
+                    Console.WriteLine(action.bestAction);
                 }
+            }
+            else
+            {
+                foreach (var action in bAction2)
+                {
+                    Console.WriteLine(action.bestAction);
+                }
+            }
 
 
             Console.Write(Environment.NewLine);
@@ -93,6 +105,9 @@ namespace BasicStrategy
 
             //}
             //console.readline();
+
+
+
 
         }
     }

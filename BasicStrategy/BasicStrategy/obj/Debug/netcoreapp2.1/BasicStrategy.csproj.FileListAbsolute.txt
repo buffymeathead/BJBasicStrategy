@@ -1,0 +1,11 @@
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.deps.json
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.runtimeconfig.json
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.runtimeconfig.dev.json
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.dll
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\bin\Debug\netcoreapp2.1\BasicStrategy.pdb
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.csprojAssemblyReference.cache
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.csproj.CoreCompileInputs.cache
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.AssemblyInfoInputs.cache
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.AssemblyInfo.cs
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.dll
+c:\users\bbuff_000\source\repos\BasicStrategy\BasicStrategy\obj\Debug\netcoreapp2.1\BasicStrategy.pdb
